@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Turret+Road:wght@500&display=swap" rel="stylesheet">
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="back">
+    <h1><strong> Mi lista ordenada</strong></h1>
+    <div id="primera">
+        <ol>
+            <li>Primer elemento de mi lista ordenada</li>
+            <li>segundo elemento de mi lista ordenada</li>
+            <li>tercer elemento de mi lista ordenada</li>
+        </ol>
+    </div>
+<br>
+<hr>
+    <h1><strong> Mi lista NO ordenada</strong></h1>
+<div id="segunda">
+    <ul>
+        <li>Primer elemento de mi lista ordenada</li>
+        <li>segundo elemento de mi lista ordenada</li>
+        <li>tercer elemento de mi <span> lista ordenada</span></li>
+    </ul>
+</div>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+        </tr>
+        <tr>
+            <td>Rosa</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>Luis</td>
+            <td>23</td>
+        </tr>
+        <tr>
+            <td>Andrea</td>
+            <td>22</td>
+        </tr>
+        <tr>
+            <td>Oscar</td>
+            <td>35</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <hr>
+</div>
+
+<div class="make">
+    <form>
+        <label for="name">Nombre: </label>
+        <input type="text" id="name" name="name"/>
+    <br>
+        <label for="lastname">Apellido: </label>
+        <input type="text" id="lastname" name="lastname"/>
+    <br>
+        <label for="email">Correo Electronico: </label>
+        <input type="email" id="email" name="email"/>
+    <br>
+    <label>
+       Color: 
+    <select name="Color">
+        <option value=""disabled selected>selecciona un color</option>
+        <option value="azul">azul</option>
+        <option value="rojo">rojo</option>
+        <option value="amarillo">amarillo</option>
+    </select>
+    </label>
+    <br>
+    <label for="talla-S">talla-S</label>
+    <input type="radio" id="talla-S" name="radio-options"/>
+    <label for="talla-M">talla-M</label>
+    <input type="radio" id="talla-M" name="radio-options"/>
+    <label for="talla-L">talla-L</label>
+    <input type="radio" id="talla-L" name="radio-options"/>
+    <br>
+    <label>
+        Comentario:
+    <textarea name="comentario" rows="3" cols="20"></textarea>
+    </label>
+    <br>
+    <button type="submit">Pedir</button>
+
+    </form>
+</div>
+
+</body>
+</html>
