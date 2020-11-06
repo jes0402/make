@@ -1,0 +1,43 @@
+div{
+    margin: 5px;
+}
+.container1{
+    margin: 3px;
+    width: 100%;
+    height: 250px;
+    background: rgb(53, 14, 126);
+ 
+}
+.container1 > h1{
+    color: white;
+    line-height: 250px;
+    text-align: center;
+}
+.container2{
+    margin: 3px;
+    width: 100%;
+    height: 100px;
+    background: white;
+  
+}
+.container3{
+    margin: 3px;
+    width: 100%;
+    height: 250px;
+    background: rgb(53, 14, 126);
+    text-align: center;
+    
+
+}
+.container2 > h2, h3{
+    text-align: center;
+}
+
+.containter3 > a{
+    color: red;
+}
+.container3 > p{
+    margin-top: 30px;
+    color: white;
+    padding-top: 30px;   
+}
