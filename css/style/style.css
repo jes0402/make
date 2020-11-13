@@ -1,8 +1,10 @@
 .container{
     width: 400px;
     height: 400px;
-    background: salmon;
+    background: radial-gradient(salmon, aqua);
     position: relative;
+    box-shadow: 3px 2px 25px 3px black;
+
 }
 .box{
     width: 100px;
@@ -30,14 +32,16 @@
 }
 .container2{
     width: 250px;
-    height: 700px;
-    background: black;
+    height: 700px; 
+    background: linear-gradient(to right, gray 20%, blue 60%);
     position: relative;
+    box-shadow: 3px 2px 20px 2px black;
 }
 .fix{
     width: 170px;
     height: 50px;
     background: red;
+    box-shadow: 3px 2px 30px 1px white;
     position: absolute;
     top: 150px;
     left: 140px;
@@ -49,5 +53,10 @@
     border: dotted blue 3px;
     position: absolute;
     top: 200px;
-    right: 70px;
+    right: 100px;
+    box-shadow: 3px 2px 30px 5px black;
+}
+h1{
+    text-align: center;
+    text-shadow: 7px -10px  5px pink;
 }
